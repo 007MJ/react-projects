@@ -6,6 +6,7 @@ import Count from './components/Count'
 import ValueRealTime from './components/ValueRealtime'
 import Visibility from './components/Visibility'
 import Items from './components/Items'
+import ToDoList from './components/ToDoList'
 
 
 function App() {
@@ -30,7 +31,10 @@ function App() {
       <button onClick={three}> three</button>
     <Visibility show={count}/>  */}
       {/* <p>hwllo</p> */}
-      <Items/>
+      {/* <Items/> */}
+
+      <p>Intermediate</p>
+      <ToDoList/>
     </>
   )
   console.log(why)
